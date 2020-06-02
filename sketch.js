@@ -101,11 +101,11 @@ function keyPressed(){
      console.log(hour);
 
      if (hour >= 06 && hour <= 19) {
-         bg = "bg.png";
+         bg = "sprites/bg.png";
 
      } 
      else {
-         bg = "bg2.jpg" 
+         bg = "sprites/bg2.jpg" 
      } 
 
      backgroundImage = loadImage(bg);
